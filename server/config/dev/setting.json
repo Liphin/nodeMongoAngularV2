@@ -1,0 +1,19 @@
+{
+  "port": 3000,
+  "bgUrl": "http://***.liphin.com:8080",
+  "mongodb": {
+    "toConnect":true,
+    "url": "mongodb://localhost:27017",
+    "poolSize": 10,
+    "useNewUrlParser": true
+  },
+  "mysql":{
+    "toConnect":true,
+    "connectionLimit" : 10,
+    "host": "rm-2ze7293154b3khhn2i.mysql.rds.aliyuncs.com",
+    "user": "beanson",
+    "password": "2016BeansonBar",
+    "database": "report"
+  },
+  "base": "G:\\SoftwareOutSourcing\\exampleV2\\"
+}

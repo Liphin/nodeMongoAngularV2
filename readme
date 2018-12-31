@@ -1,0 +1,4 @@
+1、开发者在server/config文件夹中可添加适合本机的setting.json文件，由于项目在不同机器安装配置等不同，例如本地和远程服务器，项目目录结构必然有差别
+   如Tom需在其本机开发项目，则需在config目录中添加如tom的文件夹
+2、开发者在设置自定义的config后，需在机器上添加TARGET_ENV的环境变量，变量名称为TARGET_ENV，值为开发者设置的新的config文件夹名称
+   如前面例子的TARGET_ENV=tom
